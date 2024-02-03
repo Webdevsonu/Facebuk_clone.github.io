@@ -1,7 +1,9 @@
 .textcolor{
-	color:blue;
-	font-size:50px;
+	color:rgb(42, 116, 228);
+	font-size:60px;
 	font-family:sans-serif;
+	font-weight: 750;
+	text-align: center;
 	
 }
 
@@ -10,7 +12,7 @@
 	border-style:solid;
 	border-width:1px;
 	border-radius:8px;
-	background-color:blue;
+	background-color:rgb(42, 116, 228);
 	width:100%;
 	padding:14px;
 	font-size:16px;
@@ -22,7 +24,7 @@
 	border-style:solid;
 	border-width:1px;
 	border-radius:8px;
-	background-color:dodgerblue;
+	background-color:rgb(42, 116, 228);
 	width:100%;
 	padding:14px;
 	font-size:16px;
@@ -41,21 +43,22 @@
 	font-size:16px;
 }
 
-.container{
+.container1 {
+	margin:0 6.5%;
+	max-width: 60vh;
+}
+
+.container2{
 	border-style:solid;
-	border-width:1px;
+	border-width:0px;
 	border-radius:8px;
-	color:white;
 	background-color:white;
 	padding:15px;
 	font-size:16px;
-	margin:20px;
-	outline-style:solid;
-	outline-width:2px;
-	outline-color:black;
-	float:right;
-	margin:0 6.5%;
-	width:30%;
+	margin: 10px;
+	box-shadow: 1px 1px 10px 1px ;
+	max-width: 60vh;
+	text-align: center;
 }
 
 .newcolor{
@@ -86,14 +89,50 @@
 
 body{
 	font-family:sans-serif;
-	text-align:center;
-	background-color:powderblue;
+	background-color:rgb(220, 236, 241);
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
 }
 
-div{
-	float:left;
-	margin:0 6.5%;
-	width:40%;
+a {
+	text-decoration: none;
 }
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	border-color: rgb(42, 116, 228);
+}
+
+p {
+	font-size: 1.2rem;
+
+}
+
+@media screen and (min-width: 700px) {
+	body {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 60px;
+	}
+	.container2 {
+		border-style:solid;
+		border-width:0px;
+		border-radius:8px;
+		background-color:white;
+		font-size:16px;
+		width: 100%;
+		box-shadow: 1px 1px 10px 1px ;
+		margin-top: 50px;
+
+	}
+
+
+}
+
 
 
